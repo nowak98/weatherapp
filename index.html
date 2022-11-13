@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo-favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- BOX -->
+    <div class="card">
+      <!-- HEADER -->
+      <div class="weather">
+        <h2 class="city"></h2>
+        <!-- TEMPERATURE -->
+        <div class="card-row">
+          <img src="" alt="" class="icon" />
+          <h1 class="temp"></h1>
+        </div>
+        <!-- WEATHER DESCRIPTION -->
+        <div class="card-item">
+          <div class="description card-items"></div>
+          <div class="humidity card-items"></div>
+          <div class="wind card-items"></div>
+        </div>
+      </div>
+      <!-- CITY SEARCH -->
+      <div class="search">
+        <input type="text" class="searchbar" placeholder="Search" />
+        <button>
+          <ion-icon class="search-icon" name="search-outline"></ion-icon>
+        </button>
+      </div>
+    </div>
+    <!-- ION ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
